@@ -1,1 +1,2 @@
-web: node server.js
+web: node --harmony-destructuring parry.server.js
+worker: node parry.worker.js
